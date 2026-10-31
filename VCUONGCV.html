@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ôn Văn vào 10 Hà Nội 2027</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff3f8;--bg2:#f1ecff;--card:rgba(255,255,255,.86);--ink:#432c4f;--mut:#8b7595;--pk:#ff7eb3;--pk2:#ffe0ee;--lv:#b9a2ff;--lv2:#e9e1ff;--mint:#c4f3df;--sun:#fff0b8;--bd:#f6d5e6;--ok:#2e9c72;--no:#d8506f;--sh:0 10px 30px rgba(255,126,179,.18);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1627;--bg2:#2a1f3a;--card:rgba(52,38,64,.88);--ink:#f8eaf4;--mut:#c2aacb;--pk:#ff8fc0;--pk2:#4d2f46;--lv:#8b77d6;--lv2:#3b2f5c;--mint:#2c5a4a;--sun:#5c4d22;--bd:#4b3858;--sh:0 10px 30px rgba(0,0,0,.35)}}
+:root[data-theme="dark"]{--bg:#1f1627;--bg2:#2a1f3a;--card:rgba(52,38,64,.88);--ink:#f8eaf4;--mut:#c2aacb;--pk:#ff8fc0;--pk2:#4d2f46;--lv:#8b77d6;--lv2:#3b2f5c;--mint:#2c5a4a;--sun:#5c4d22;--bd:#4b3858;--sh:0 10px 30px rgba(0,0,0,.35)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:Quicksand,"Segoe UI",system-ui,sans-serif;line-height:1.7;font-size:16px;background:radial-gradient(circle at 10% 0,var(--pk2),transparent 45%),radial-gradient(circle at 95% 20%,var(--lv2),transparent 45%),linear-gradient(var(--bg),var(--bg2)) fixed}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.deco{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.deco span{position:absolute;opacity:.5;animation:fl 9s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-22px) rotate(12deg)}}
+.hero{position:relative;z-index:1;max-width:860px;margin:18px auto 6px;padding:26px 22px;border-radius:32px;display:flex;gap:18px;align-items:center;background:linear-gradient(135deg,var(--pk),var(--lv));color:#fff;box-shadow:var(--sh);width:calc(100% - 28px)}
+.mascot{font-size:4.2rem;animation:fl 5s ease-in-out infinite;filter:drop-shadow(0 6px 8px rgba(0,0,0,.18))}
+.tag{display:inline-block;background:rgba(255,255,255,.28);border-radius:99px;padding:2px 14px;font-weight:700;font-size:.85rem;margin:0}
+h1{margin:6px 0 0;font-size:clamp(1.7rem,6vw,2.6rem);line-height:1.2}
+h1 span{background:#fff;color:var(--pk);border-radius:14px;padding:0 10px}
+.sub{margin:6px 0 0;opacity:.95}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.stats span{background:rgba(255,255,255,.25);border-radius:99px;padding:3px 12px;font-weight:700;font-size:.9rem}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;gap:8px;overflow-x:auto;padding:12px 14px;max-width:880px;margin:0 auto;backdrop-filter:blur(10px);scrollbar-width:none}
+nav button{flex:none;border:2px solid var(--bd);background:var(--card);color:var(--ink);font:inherit;font-weight:700;padding:8px 16px;border-radius:99px;cursor:pointer;transition:.2s;box-shadow:0 3px 10px rgba(255,126,179,.12)}
+nav button:hover{transform:translateY(-2px)}
+nav button.on{background:linear-gradient(135deg,var(--pk),var(--lv));border-color:transparent;color:#fff}
+main{position:relative;z-index:1;max-width:860px;margin:0 auto;padding:6px 14px 60px}
+section{display:none}section.on{display:block;animation:in .4s ease}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+h2{margin:26px 0 10px;font-size:1.35rem;display:flex;align-items:center;gap:8px}
+h2::after{content:"";flex:1;height:4px;border-radius:9px;background:linear-gradient(90deg,var(--pk),transparent);opacity:.5}
+.card{background:var(--card);border:2px solid var(--bd);border-radius:24px;padding:18px 20px;margin:12px 0;box-shadow:var(--sh);backdrop-filter:blur(6px);transition:.25s}
+.grid .card:hover{transform:translateY(-4px)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}.grid .card{margin:0}
+.pill{display:inline-block;border-radius:99px;padding:2px 12px;font-weight:700;background:var(--pk2);font-size:.88rem}
+.big{font-size:1.9rem;font-weight:700;line-height:1.3;background:linear-gradient(90deg,var(--pk),var(--lv));-webkit-background-clip:text;background-clip:text;color:transparent}
+.c1{background:linear-gradient(135deg,var(--pk2),var(--card))}.c2{background:linear-gradient(135deg,var(--mint),var(--card))}.c3{background:linear-gradient(135deg,var(--sun),var(--card))}.c4{background:linear-gradient(135deg,var(--lv2),var(--card))}
+.tip{border-radius:18px;border:2px dashed var(--pk);background:var(--card);padding:12px 16px;margin:14px 0}
+.fc{cursor:pointer;min-height:96px;border-radius:20px;padding:14px 16px;border:2px solid var(--bd);background:linear-gradient(135deg,var(--card),var(--pk2));text-align:left;font:inherit;color:var(--ink);width:100%;box-shadow:var(--sh);transition:.25s}
+.fc:hover{transform:translateY(-4px) rotate(-1deg)}
+.fc b{font-size:1.1rem}.fc .bk{display:none;font-size:.93rem;margin-top:4px}.fc.f{background:linear-gradient(135deg,var(--card),var(--mint))}.fc.f .bk{display:block}.fc.f .hint{display:none}.hint{color:var(--mut);font-size:.85rem;display:block}
+.step{display:flex;gap:12px;align-items:flex-start}
+.num{flex:none;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--pk),var(--lv));color:#fff;display:grid;place-items:center;font-weight:700;box-shadow:0 4px 10px rgba(255,126,179,.4)}
+ul{padding-left:20px;margin:6px 0}li::marker{color:var(--pk)}
+.q button.o{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 16px;border-radius:16px;border:2px solid var(--bd);background:var(--card);color:var(--ink);font:inherit;cursor:pointer;transition:.2s}
+.q button.o:hover:not(:disabled){border-color:var(--pk);transform:translateX(4px)}
+.q button.o.ok{background:var(--mint);border-color:var(--ok)}.q button.o.no{background:var(--pk2);border-color:var(--no)}
+.btn{display:inline-block;border:0;background:linear-gradient(135deg,var(--pk),var(--lv));color:#fff;font:inherit;font-weight:700;padding:10px 20px;border-radius:99px;cursor:pointer;margin:4px 4px 4px 0;text-decoration:none;box-shadow:0 6px 14px rgba(255,126,179,.3);transition:.2s}
+.btn:hover{transform:translateY(-2px)}.btn.alt{background:linear-gradient(135deg,var(--lv),#8fb5ff)}
+.bar{height:14px;border-radius:9px;background:var(--pk2);overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--pk),var(--lv));width:0;transition:width .4s;border-radius:9px}
+.clock{font-size:3.4rem;font-weight:700;text-align:center;color:var(--pk)}
+label.ck{display:flex;gap:10px;align-items:flex-start;padding:7px 0;cursor:pointer}
+label.ck input{width:20px;height:20px;accent-color:var(--pk);margin-top:4px}
+details{border:2px dashed var(--pk);border-radius:14px;padding:8px 12px;margin:8px 0;background:var(--card)}
+summary{cursor:pointer;font-weight:700}
+.poem{font-size:1.15rem;text-align:center;font-style:italic;background:linear-gradient(135deg,var(--pk2),var(--lv2));border-radius:20px;padding:16px}
+.hl1{background:var(--pk2)}.hl2{background:var(--mint)}.hl3{background:var(--sun)}.hl4{background:var(--lv2)}
+.tags span{display:inline-block;margin:3px;padding:4px 14px;border-radius:99px;background:var(--pk2);font-weight:700}
+.week{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.week div{background:var(--pk2);border-radius:16px;padding:8px 12px}.week b{color:var(--pk)}
+.res{display:flex;gap:14px;align-items:center}.res .ic{font-size:2.6rem}
+iframe{width:100%;height:520px;border:2px solid var(--bd);border-radius:20px;background:var(--card)}
+.strip{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:28px;padding:14px 18px;border-radius:22px;background:linear-gradient(135deg,var(--sun),var(--pk2));border:2px dashed var(--pk)}
+footer{text-align:center;color:var(--mut);font-size:.85rem;padding:0 16px 30px;position:relative;z-index:1}
+@media(max-width:560px){.hero{flex-direction:column;text-align:center}.stats{justify-content:center}}
+
+/* ===== v3: nền rực rỡ, cute hơn ===== */
+:root{--pk:#ff5fa2;--pk2:#ffc3de;--lv:#a07cff;--lv2:#d9cbff;--mint:#a8efcf;--sun:#ffe48a;--bd:#ffa8cf;--card:rgba(255,255,255,.93);--g1:#ffc6e2;--g2:#e1ceff;--g3:#c4e4ff;--g4:#c9f7e0;--dot:rgba(255,255,255,.75);--bdc:#ff9ccb;--sdc:rgba(255,95,162,.3)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g1:#3a1f4d;--g2:#2a2060;--g3:#1d2f5a;--g4:#1b4040;--dot:rgba(255,255,255,.08);--bdc:#ff8fc0;--sdc:rgba(255,143,192,.25)}}
+:root[data-theme="dark"]{--g1:#3a1f4d;--g2:#2a2060;--g3:#1d2f5a;--g4:#1b4040;--dot:rgba(255,255,255,.08);--bdc:#ff8fc0;--sdc:rgba(255,143,192,.25)}
+body{background:radial-gradient(var(--dot) 3px,transparent 3.5px) 0 0/34px 34px,linear-gradient(160deg,var(--g1),var(--g2) 38%,var(--g3) 70%,var(--g4)) fixed}
+body::before{background:var(--g1)}
+.deco::before,.deco::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;animation:fl 12s ease-in-out infinite}
+.deco::before{width:360px;height:360px;background:#ff8cc6;left:-100px;top:18%}
+.deco::after{width:320px;height:320px;background:#8fd0ff;right:-90px;bottom:8%;animation-delay:3s}
+.deco span{opacity:.8;right:auto;bottom:auto;text-shadow:0 4px 8px rgba(255,95,162,.25)}
+.hero{background:linear-gradient(135deg,#ff5fa2,#ff9a8b 45%,#a07cff);border:4px solid #fff;box-shadow:6px 8px 0 rgba(160,124,255,.45);overflow:hidden}
+.hero::after{content:"";position:absolute;right:-40px;top:-40px;width:160px;height:160px;border-radius:50%;background:rgba(255,255,255,.2)}
+.mascot{font-size:5rem}
+nav button:nth-child(4n+1){background:var(--pk2)}nav button:nth-child(4n+2){background:var(--mint)}nav button:nth-child(4n+3){background:var(--sun)}nav button:nth-child(4n){background:var(--lv2)}
+nav button{border-width:3px;border-color:#fff;box-shadow:2px 3px 0 var(--sdc)}
+nav button.on{background:linear-gradient(135deg,var(--pk),var(--lv))}
+h2{background:linear-gradient(90deg,var(--pk),var(--lv));color:#fff;padding:6px 18px;border-radius:20px 20px 20px 4px;width:fit-content;max-width:100%;box-shadow:3px 4px 0 var(--sdc)}
+h2::after{display:none}h2 small{color:#fff}
+.card{border:3px solid var(--bdc);box-shadow:5px 6px 0 var(--sdc)}
+section>.card:nth-of-type(3n+2){--bdc:#a07cff;--sdc:rgba(160,124,255,.3)}
+section>.card:nth-of-type(3n){--bdc:#5fd6a6;--sdc:rgba(95,214,166,.35)}
+.c1{background:linear-gradient(135deg,var(--pk2),var(--card))}.c2{background:linear-gradient(135deg,var(--mint),var(--card))}.c3{background:linear-gradient(135deg,var(--sun),var(--card))}.c4{background:linear-gradient(135deg,var(--lv2),var(--card))}
+.grid .card:nth-child(4n+1){background:linear-gradient(135deg,var(--pk2),var(--card))}.grid .card:nth-child(4n+2){background:linear-gradient(135deg,var(--mint),var(--card))}.grid .card:nth-child(4n+3){background:linear-gradient(135deg,var(--sun),var(--card))}.grid .card:nth-child(4n){background:linear-gradient(135deg,var(--lv2),var(--card))}
+.fc{border:3px solid #fff;box-shadow:4px 5px 0 var(--sdc)}
+.tip{border:3px dashed var(--pk);background:linear-gradient(135deg,var(--sun),var(--card))}
+.tags span{border:2px solid #fff;box-shadow:2px 3px 0 var(--sdc)}
+footer{background:var(--card);max-width:520px;margin:0 auto 24px;padding:12px 16px;border-radius:20px;border:3px solid var(--bdc)}
+</style>
+</head>
+<body>
+<div class="deco" id="deco"></div>
+<header class="hero"><div class="mascot">🐰</div><div><p class="tag">Sĩ tử Hà Nội · Kỳ thi 2027</p><h1>Ôn Văn vào <span>lớp 10</span></h1><p class="sub">Học từng chút một, mỗi ngày tiến bộ một xíu nha ✨</p><div class="stats"><span>⏰ 120 phút</span><span>🎯 10 điểm</span><span>📝 Đọc hiểu + Viết</span></div></div></header>
+<nav id="nav"></nav>
+<main>
+
+<section id="s0">
+<div class="card c1"><b>⏳ Đếm ngược tới kỳ thi</b><div class="big" id="cd">...</div>
+<small>Mốc dự kiến: cuối tháng 5/2027 (kỳ thi 2026 diễn ra 30/5). Ngày chính thức do Sở GD&amp;ĐT Hà Nội công bố nên nhớ theo dõi nhé!</small></div>
+<h2>🧾 Đề thi Văn trông như thế nào?</h2>
+<div class="grid">
+<div class="card c2"><span class="pill">120 phút</span><div class="big">10 điểm</div>Tự luận, 1 bài thi độc lập (cùng Toán và Ngoại ngữ).</div>
+<div class="card c3"><span class="pill">Phần I</span><div class="big">Đọc hiểu · 4đ</div>Ngữ liệu thường nằm <b>ngoài SGK</b>: nhận biết, tiếng Việt, hiểu nội dung.</div>
+<div class="card c4"><span class="pill">Phần II</span><div class="big">Viết · 6đ</div>Thường gồm đoạn văn nghị luận xã hội (khoảng 2đ) và bài nghị luận văn học (khoảng 4đ).</div>
+</div>
+<div class="tip">💡 Đề các năm gần đây giữ cấu trúc quen thuộc, chủ yếu trong chương trình lớp 9, và chống “học vẹt, học tủ”. Muốn điểm cao: <b>hiểu bài + viết chỉn chu</b>. Cấu trúc 2027 có thể tinh chỉnh, hãy xem đề minh họa mới nhất của Sở nhé.</div>
+<h2>⏰ Gợi ý chia thời gian (120 phút)</h2>
+<div class="card">
+<div class="step"><div class="num">1</div><div><b>Đọc hiểu: ~25–30 phút.</b> Trả lời ngắn gọn, đủ ý.</div></div>
+<div class="step"><div class="num">2</div><div><b>Đoạn văn NLXH: ~25 phút.</b> Có dàn ý nháp 2 phút.</div></div>
+<div class="step"><div class="num">3</div><div><b>NLVH: ~50 phút.</b> Phần nhiều điểm nhất, dành thời gian nhất.</div></div>
+<div class="step"><div class="num">4</div><div><b>Soát bài: ~10 phút.</b> Chính tả, dấu câu, xuống dòng.</div></div>
+</div>
+</section>
+
+<section id="s1">
+<h2>🔍 Phần Đọc hiểu</h2>
+<div class="card"><b>Công thức vàng khi trả lời:</b>
+<ul><li><b>Nhận biết:</b> trả lời thẳng vào ý (thể thơ, phương thức biểu đạt, biện pháp tu từ…).</li>
+<li><b>Tác dụng:</b> nêu BPTT/từ ngữ + <b>làm nổi bật điều gì</b> (nội dung) + <b>cảm xúc/thái độ</b> của tác giả.</li>
+<li><b>Thông điệp:</b> rút ra từ văn bản, viết bằng lời của em, 2–3 câu.</li></ul></div>
+<h2>🎴 Thẻ biện pháp tu từ <small class="hint" style="display:inline">(chạm để lật)</small></h2>
+<div class="grid" id="fc"></div>
+<h2>🧩 Kiến thức tiếng Việt hay gặp</h2>
+<div class="grid">
+<div class="card"><b>Thành phần câu</b><ul><li><b>Khởi ngữ:</b> nêu đề tài (Về…, Đối với…).</li><li><b>Trạng ngữ:</b> thời gian, nơi chốn, nguyên nhân, mục đích…</li><li><b>Biệt lập:</b> tình thái (chắc là), cảm thán (ôi), gọi đáp (này), phụ chú (đặt giữa dấu gạch ngang/ngoặc).</li></ul></div>
+<div class="card"><b>Thể thơ nhận diện nhanh</b><ul><li>Lục bát: câu 6 – câu 8.</li><li>Song thất lục bát: 7-7-6-8.</li><li>Thơ 4/5/7/8 chữ: đếm chữ mỗi dòng.</li><li>Tự do: không cố định số chữ.</li></ul></div>
+<div class="card"><b>Phương thức biểu đạt</b><ul><li>Tự sự · Miêu tả · Biểu cảm</li><li>Nghị luận · Thuyết minh · Hành chính</li><li>Mẹo: tìm từ “chủ đạo” của đoạn.</li></ul></div>
+<div class="card"><b>Câu trả lời “tác dụng” mẫu</b><br>“Biện pháp <i>nhân hóa</i> khiến [sự vật] trở nên sinh động, gần gũi, qua đó thể hiện [tình cảm] của tác giả.”</div>
+</div>
+</section>
+
+<section id="s2">
+<h2>🌍 Đoạn văn nghị luận xã hội</h2>
+<p>Thường là đoạn văn có yêu cầu về số chữ (hay gặp khoảng 200 chữ). Đọc kỹ đề, viết <b>một đoạn liền mạch</b>, không xuống dòng giữa chừng.</p>
+<div class="card"><div class="step"><div class="num">1</div><div><b>Mở đoạn:</b> nêu vấn đề.<br><i>“Trong cuộc sống hiện đại, … là điều vô cùng quan trọng.”</i></div></div></div>
+<div class="card"><div class="step"><div class="num">2</div><div><b>Giải thích:</b> hiểu vấn đề là gì?<br><i>“Hiểu một cách đơn giản, … là …”</i></div></div></div>
+<div class="card"><div class="step"><div class="num">3</div><div><b>Bàn luận:</b> vì sao quan trọng + biểu hiện + dẫn chứng đời sống.<br><i>“Thật vậy, …” “Chẳng hạn, …” “Ngược lại, …”</i></div></div></div>
+<div class="card"><div class="step"><div class="num">4</div><div><b>Bài học:</b> mỗi bạn học sinh cần làm gì?<br><i>“Mỗi chúng ta cần … để …”</i></div></div></div>
+<div class="tip">🌟 Dẫn chứng nên <b>gần gũi, có thật, cụ thể</b> (một tấm gương, một việc làm đẹp). Tránh kể lan man; mỗi ý chỉ 1–2 câu.</div>
+</section>
+
+<section id="s3">
+<h2>🌺 Nghị luận văn học</h2>
+<div class="card c1"><b>📜 Dàn bài phân tích thơ / đoạn thơ</b>
+<ul><li><b>Mở bài:</b> tác giả, tác phẩm, hoàn cảnh sáng tác (nếu biết), đoạn thơ + cảm nhận chung.</li>
+<li><b>Thân bài:</b> (1) Nội dung, cảm xúc, hình ảnh, từng khổ/ý. (2) Nghệ thuật: thể thơ, từ ngữ, BPTT, nhịp điệu. (3) Liên hệ, mở rộng.</li>
+<li><b>Kết bài:</b> khẳng định giá trị, ấn tượng của em.</li></ul></div>
+<div class="card c2"><b>📖 Dàn bài phân tích truyện / nhân vật</b>
+<ul><li><b>Mở bài:</b> tác giả, tác phẩm, nhân vật, nhận định.</li>
+<li><b>Thân bài:</b> tình huống truyện → nhân vật (ngoại hình, hành động, lời nói, suy nghĩ) → nghệ thuật (ngôi kể, chi tiết, ngôn ngữ) → chủ đề, ý nghĩa.</li>
+<li><b>Kết bài:</b> giá trị nội dung, nghệ thuật, bài học.</li></ul></div>
+<div class="card c3"><b>✍️ Cấu trúc 1 đoạn văn “chuẩn chỉnh”</b><br>Câu chủ đề → trích dẫn/chi tiết → phân tích (từ ngữ, BPTT) → nêu cảm nhận → liên kết sang ý sau.</div>
+<h2>🧭 Các dạng đề NLVH thường gặp</h2>
+<div class="grid"><div class="card c1"><b>Phân tích đoạn thơ</b><br>Nội dung, hình ảnh, cảm xúc, nghệ thuật.</div>
+<div class="card c2"><b>Phân tích nhân vật</b><br>Ngoại hình, hành động, lời nói, nội tâm.</div>
+<div class="card c3"><b>Cảm nhận hình ảnh / chi tiết</b><br>Chọn chi tiết đắt, bàn về ý nghĩa.</div>
+<div class="card c4"><b>Vẻ đẹp tâm hồn, tình cảm</b><br>Tình yêu quê hương, gia đình, đất nước.</div></div>
+<h2>💬 Câu mở đầu dùng được ngay</h2>
+<div class="grid">
+<div class="card">“Đến với đoạn thơ, ta bắt gặp…”</div>
+<div class="card">“Bằng giọng thơ…, tác giả đã gửi gắm…”</div>
+<div class="card">“Câu thơ… là một hình ảnh giàu sức gợi…”</div>
+<div class="card">“Qua đó, ta thấy được… và thêm trân trọng…”</div>
+</div>
+<div class="tip">📝 Quan trọng: <b>trích dẫn đúng, phân tích từ ngữ “đắt”</b>, rồi mới bình luận. Đừng chỉ kể lại nội dung.</div>
+</section>
+
+<section id="s4">
+<h2>🎯 Luyện tập nhanh</h2>
+<div class="card"><div class="bar"><i id="qb"></i></div><div id="qz"></div></div>
+</section>
+
+<section id="s5">
+<h2>🗓️ Lộ trình ôn tập</h2>
+<div class="card"><div class="bar"><i id="pb"></i></div><small id="pt"></small></div>
+<div id="plan"></div>
+<h2>📅 Thời khóa biểu tuần mẫu</h2>
+<div class="card"><div class="week"><div><b>Thứ 2</b> · Đọc hiểu 1 văn bản ngoài SGK</div><div><b>Thứ 3</b> · Ôn tiếng Việt + biện pháp tu từ</div><div><b>Thứ 4</b> · Viết 1 đoạn NLXH</div><div><b>Thứ 5</b> · Ôn tác phẩm, ghi sổ tay</div><div><b>Thứ 6</b> · Viết 1 đoạn NLVH</div><div><b>Thứ 7</b> · Làm 1 đề, bấm giờ 120’</div><div><b>Chủ nhật</b> · Nghỉ ngơi, đọc sách 🍵</div></div></div>
+<h2>⏱️ Đồng hồ học tập</h2>
+<div class="card" style="text-align:center"><div class="clock" id="ck">25:00</div>
+<button class="btn" data-m="25">Học 25’</button><button class="btn alt" data-m="5">Nghỉ 5’</button><button class="btn" data-m="120">Thi thử 120’</button><button class="btn alt" id="stop">Dừng</button></div>
+</section>
+
+<section id="s6">
+<h2>🚫 Lỗi hay mất điểm</h2>
+<div class="card"><ul>
+<li>Đọc vội, <b>không bám yêu cầu đề</b> (sai số câu, sai số chữ).</li>
+<li>Chỉ kể lại nội dung mà không phân tích.</li>
+<li>Viết tắt, sai chính tả, quên dấu câu, chữ xấu khó đọc.</li>
+<li>Học thuộc bài mẫu rồi chép máy móc, đề lạ là lúng túng.</li>
+<li>Bỏ phần đọc hiểu vì nghĩ “dễ”, nên mất điểm đáng tiếc.</li></ul></div>
+<h2>🌈 Mẹo để học vui hơn</h2>
+<div class="card"><ul>
+<li>Mỗi tuần viết <b>1 đoạn NLXH</b> và <b>1 đoạn NLVH</b>, nhờ thầy cô/bạn đọc giúp.</li>
+<li>Làm đề các năm trước và đề thử, nhất là đọc hiểu ngoài SGK.</li>
+<li>Đọc thơ, truyện ngắn ngoài giờ để tăng cảm thụ.</li>
+<li>Ngủ đủ, ăn đủ, nghỉ giữa giờ. Bạn làm được mà! 💪</li></ul></div>
+</section>
+
+<section id="s7">
+<h2>🧪 Bài đọc hiểu thử</h2>
+<div class="card"><div class="poem">Sáng nay con bước ra sân,<br>Hoa cau rụng trắng bên thềm nắng non.<br>Mẹ cười, tóc mẹ còn thơm<br>Mùi khói bếp cũ, mùi cơm sớm mai.</div>
+<small>(Đoạn thơ tự sáng tác để luyện tập)</small>
+<p><b>Câu 1.</b> Xác định thể thơ.</p><details><summary>Xem đáp án</summary>Lục bát (câu 6 chữ xen câu 8 chữ).</details>
+<p><b>Câu 2.</b> Chỉ ra hai hình ảnh gợi không khí bình yên, thân thuộc.</p><details><summary>Xem đáp án</summary>Hoa cau rụng trắng bên thềm; khói bếp, cơm sớm mai (chọn 2 hình ảnh).</details>
+<p><b>Câu 3.</b> Nêu tác dụng của việc lặp từ “mùi”.</p><details><summary>Xem đáp án</summary>Điệp từ “mùi” nhấn mạnh hương vị quen thuộc của gia đình, gợi ký ức ấm áp, qua đó thể hiện tình yêu thương dành cho mẹ.</details>
+<p><b>Câu 4.</b> Em rút ra thông điệp gì?</p><details><summary>Xem đáp án</summary>Hãy trân trọng những điều giản dị bên gia đình, vì đó là nơi nuôi dưỡng tình cảm và ký ức đẹp nhất.</details></div>
+<h2>🌟 Đoạn văn NLXH mẫu: lòng biết ơn</h2>
+<div class="card"><span class="hl1">Lòng biết ơn là sự ghi nhớ và trân trọng những điều tốt đẹp mà người khác đã dành cho mình.</span> <span class="hl2">Nhờ có lòng biết ơn, con người biết sống chậm lại để nhận ra bao công sức của cha mẹ, thầy cô và những người xung quanh. Thật vậy, một lời cảm ơn chân thành khiến người nhận thấy công sức của mình được ghi nhận, từ đó các mối quan hệ thêm bền chặt.</span> <span class="hl3">Chẳng hạn, một bạn học sinh nhớ ơn thầy cô sẽ chăm chỉ học tập để không phụ lòng dạy dỗ. Ngược lại, người vô ơn dễ trở nên ích kỉ, lạnh lùng và đánh mất những tình cảm đáng quý.</span> <span class="hl4">Vì vậy, mỗi chúng ta cần rèn thói quen nói lời cảm ơn và đền đáp bằng những việc làm cụ thể, dù nhỏ bé.</span>
+<p><small><span class="pill hl1">Mở đoạn + giải thích</span> <span class="pill hl2">Bàn luận</span> <span class="pill hl3">Dẫn chứng + phản đề</span> <span class="pill hl4">Bài học</span></small></p></div>
+<div class="tip">🎯 Thử tự viết lại với đề khác: “tự học”, “trung thực”, “bảo vệ môi trường”, “ứng xử trên mạng xã hội”. Giữ đúng 4 phần như trên.</div>
+</section>
+
+<section id="s8">
+<h2>🧰 Hộp đồ nghề viết văn</h2>
+<div class="card"><b>Động từ phân tích “đắt”</b><div class="tags"><span>gợi</span><span>khắc họa</span><span>bộc lộ</span><span>gửi gắm</span><span>làm nổi bật</span><span>thể hiện</span><span>tô đậm</span><span>giàu sức gợi</span></div></div>
+<div class="card"><b>Từ nối chuyển ý</b><div class="tags"><span>Trước hết</span><span>Bên cạnh đó</span><span>Không chỉ vậy</span><span>Tuy nhiên</span><span>Qua đó</span><span>Có thể thấy</span><span>Tóm lại</span></div></div>
+<div class="card"><b>Chính tả hay nhầm</b><ul>
+<li><b>xuất sắc</b> (không phải “suất sắc”), <b>sáng suốt</b>, <b>chu đáo</b>, <b>trau chuốt</b>.</li>
+<li><b>dành</b> = để riêng (dành thời gian); <b>giành</b> = tranh lấy (giành giải).</li>
+<li>Dấu hỏi/ngã: <b>sửa chữa</b>, <b>bổ ích</b>, <b>nghĩ ngợi</b>, <b>cảm thán</b>.</li>
+<li>Đọc to câu văn: đoạn nào vấp là đoạn cần sửa.</li></ul></div>
+<div class="card"><b>✅ Checklist trước khi nộp bài</b>
+<label class="ck"><input type="checkbox"><span>Đã làm đủ mọi câu, đúng yêu cầu số chữ</span></label>
+<label class="ck"><input type="checkbox"><span>Có mở – thân – kết rõ ràng</span></label>
+<label class="ck"><input type="checkbox"><span>Trích dẫn thơ đúng, có phân tích từ ngữ</span></label>
+<label class="ck"><input type="checkbox"><span>Đã soát chính tả, dấu câu, xuống dòng</span></label></div>
+</section>
+<section id="s9"><h2>📎 Tài liệu ôn tập</h2><div id="res"></div>
+<h2>👀 Xem nhanh ngay trên web</h2><div class="card"><iframe id="pv" loading="lazy" title="Tài liệu ôn tập"></iframe><small>Nếu khung trống, bấm nút “Mở tài liệu” ở trên. Hãy đặt file ở chế độ “Bất kỳ ai có đường liên kết” để xem được.</small></div>
+<div class="tip">➕ Muốn thêm link khác (đề thi, video bài giảng…), mở <b>script.js</b>, tìm mảng <b>RES</b> và thêm một dòng theo mẫu.</div></section>
+
+<section id="s10">
+<h2>🔀 Biện pháp dễ nhầm</h2>
+<div class="grid">
+<div class="card"><b>Ẩn dụ ≠ Hoán dụ</b><br><b>Ẩn dụ:</b> hai vật <u>giống nhau</u> (thuyền – bến = chàng trai – cô gái).<br><b>Hoán dụ:</b> hai vật <u>đi liền nhau</u> (áo nâu = nông dân; bàn tay = sức lao động).<br>💡 Giống nhau → ẩn dụ. Đi liền nhau → hoán dụ.</div>
+<div class="card"><b>So sánh ≠ Ẩn dụ</b><br>Có từ so sánh (như, tựa, là, bao nhiêu… bấy nhiêu) → <b>so sánh</b>.<br>Không có từ so sánh, chỉ nói thẳng → <b>ẩn dụ</b>.</div>
+<div class="card"><b>Nhân hóa ≠ Ẩn dụ</b><br>Vật có hành động, tính cách, suy nghĩ như người (sông thở, gió ôm) → <b>nhân hóa</b>.</div>
+<div class="card"><b>Điệp ngữ ≠ Liệt kê</b><br>Cùng một từ/cụm <u>lặp lại</u> → <b>điệp ngữ</b>.<br>Nhiều từ/ý <u>khác nhau</u> nối tiếp → <b>liệt kê</b>.</div>
+</div>
+<h2>❓ 7 câu đọc hiểu hay gặp</h2>
+<div class="card"><ul>
+<li><b>Thể thơ / phương thức biểu đạt?</b> Đếm chữ, nhìn cách gieo vần; nêu 1 phương thức chính.</li>
+<li><b>Chỉ ra biện pháp tu từ?</b> Trích đúng câu + gọi đúng tên.</li>
+<li><b>Nêu tác dụng?</b> Biện pháp → làm nổi bật điều gì → cảm xúc, thái độ tác giả.</li>
+<li><b>Nội dung chính?</b> Một câu, bao quát cả đoạn.</li>
+<li><b>Hình ảnh / từ ngữ đặc sắc?</b> Chọn 1, giải thích vì sao “đắt”.</li>
+<li><b>Thông điệp?</b> Viết lời của em, 2–3 câu, gắn với đời sống.</li>
+<li><b>Liên hệ bản thân?</b> Chân thành, có việc làm cụ thể, không sáo rỗng.</li></ul></div>
+</section>
+
+<section id="s11">
+<h2>📝 Mở bài – kết bài mẫu</h2>
+<div class="card c1"><b>🌺 Mở bài phân tích thơ</b><br><i>“[Tên tác giả] là cây bút tiêu biểu của [giai đoạn/dòng thơ]. Bài thơ/đoạn thơ <b>[tên]</b> đã để lại ấn tượng sâu sắc bởi [nét nổi bật: tình cảm, hình ảnh, giọng điệu].”</i></div>
+<div class="card c2"><b>📖 Mở bài phân tích truyện / nhân vật</b><br><i>“Truyện ngắn <b>[tên]</b> của [tác giả] khắc họa thành công nhân vật <b>[tên]</b>, qua đó gửi gắm [thông điệp]. Nhân vật hiện lên với vẻ đẹp [phẩm chất].”</i></div>
+<div class="card c3"><b>🌸 Kết bài (dùng cho cả thơ và truyện)</b><br><i>“Bằng [nghệ thuật nổi bật], [tác giả] đã làm nổi bật [nội dung]. Tác phẩm không chỉ [giá trị 1] mà còn nhắc nhở em [bài học], để em biết trân trọng và sống tốt hơn.”</i></div>
+<div class="card c4"><b>🌍 Mở đoạn và kết đoạn NLXH</b><br><i>Mở: “Trong cuộc sống, [vấn đề] giữ vai trò vô cùng quan trọng.”</i><br><i>Kết: “Vì vậy, mỗi học sinh cần [hành động cụ thể] để [mục đích].”</i></div>
+<div class="tip">✍️ Thay phần trong ngoặc [ ] bằng nội dung của em. Đừng chép nguyên mẫu, hãy viết lại bằng giọng văn của chính mình.</div>
+</section>
+</main>
+<footer>Làm với 💗 cho các sĩ tử Hà Nội. Thông tin kỳ thi mang tính tham khảo, hãy đối chiếu với thông báo chính thức của Sở GD&amp;ĐT.</footer>
+
+<script>
+const T=["🏠 Tổng quan","🔍 Đọc hiểu","🌍 NLXH","🌺 NLVH","🎯 Luyện tập","🗓️ Lộ trình","🚫 Mẹo & lỗi","🧪 Đọc hiểu thử","🧰 Đồ nghề","📎 Tài liệu","🔀 Dễ nhầm","📝 Mở–kết bài"];
+const nav=document.getElementById("nav");
+T.forEach((t,i)=>{const b=document.createElement("button");b.textContent=t;b.onclick=()=>go(i);nav.appendChild(b)});
+function go(i){document.querySelectorAll("section").forEach((s,j)=>s.classList.toggle("on",i==j));[...nav.children].forEach((b,j)=>b.classList.toggle("on",i==j));scrollTo(0,0)}
+go(0);
+// countdown
+(function(){const d=Math.ceil((new Date(2027,4,30)-new Date())/864e5);document.getElementById("cd").textContent=d>0?"Còn khoảng "+d+" ngày 🎀":"Chúc em thi thật tốt! 🍀"})();
+// flashcards
+const F=[["So sánh","Đối chiếu hai sự vật có nét tương đồng (như, tựa, bao nhiêu… bấy nhiêu).","Tác dụng: hình ảnh cụ thể, sinh động.","“Trẻ em như búp trên cành.”"],
+["Nhân hóa","Gán đặc điểm, hành động của người cho vật.","Tác dụng: gần gũi, có hồn.","“Dòng sông thở nhẹ trong đêm.”"],
+["Ẩn dụ","Gọi sự vật này bằng tên sự vật khác có nét tương đồng (ẩn từ so sánh).","Tác dụng: hàm súc, gợi nhiều liên tưởng.","“Thuyền về có nhớ bến chăng…”"],
+["Hoán dụ","Gọi tên bằng bộ phận, dấu hiệu, vật chứa gần gũi.","Tác dụng: diễn đạt cụ thể, giàu hình ảnh.","“Áo nâu cùng với áo xanh…” (nông dân, công nhân)"],
+["Điệp ngữ","Lặp lại từ/cụm từ/câu.","Tác dụng: nhấn mạnh, tạo nhịp điệu, dồn cảm xúc.","“Đấu tranh… đấu tranh…”"],
+["Liệt kê","Kể hàng loạt sự việc, sự vật.","Tác dụng: diễn tả đầy đủ, toàn diện, dồn dập.","“Nào đèn, nào hoa, nào quà…”"],
+["Đảo ngữ","Đảo trật tự thông thường của câu.","Tác dụng: nhấn mạnh, gợi hình, gợi cảm.","“Lom khom dưới núi, tiều vài chú.”"],
+["Nói giảm nói tránh","Diễn đạt tế nhị, uyển chuyển.","Tác dụng: giảm đau thương, lịch sự, tôn trọng.","“Bác đã đi rồi…”"],
+["Câu hỏi tu từ","Hỏi nhưng không cần trả lời.","Tác dụng: khẳng định, khơi suy ngẫm, bộc lộ cảm xúc.","“Ai bảo chăn trâu là khổ?”"],
+["Đối lập, tương phản","Đặt hai điều trái ngược cạnh nhau.","Tác dụng: làm nổi bật cả hai mặt, gây ấn tượng.","“Lá lành đùm lá rách.”"]];
+const fc=document.getElementById("fc");
+F.forEach(f=>{const b=document.createElement("button");b.className="fc";b.innerHTML="<b>"+f[0]+"</b><span class='hint'>chạm để xem ✨</span><div class='bk'>"+f[1]+"<br><b>"+f[2]+"</b><br><i>"+f[3]+"</i></div>";b.onclick=()=>b.classList.toggle("f");fc.appendChild(b)});
+// quiz
+const Q=[["“Mặt trời xuống biển như hòn lửa” dùng biện pháp nào?",["So sánh","Nhân hóa","Hoán dụ"],0,"Có từ so sánh “như”."],
+["“Dòng sông thở nhẹ trong đêm” dùng biện pháp nào?",["Ẩn dụ","Nhân hóa","Điệp ngữ"],1,"Sông có hành động “thở” như người."],
+["“Thuyền về có nhớ bến chăng / Bến thì một dạ khăng khăng đợi thuyền”: thuyền, bến là…",["Hoán dụ","Liệt kê","Ẩn dụ"],2,"Chỉ người con trai và người con gái, ẩn dụ."],
+["“Áo nâu cùng với áo xanh” (Tố Hữu): đây là…",["Hoán dụ","So sánh","Nói giảm"],0,"Lấy trang phục để chỉ nông dân, công nhân."],
+["“Chắc hẳn trời sắp mưa.” “Chắc hẳn” là thành phần…",["Cảm thán","Tình thái","Gọi đáp"],1,"Thể hiện mức độ tin cậy của người nói."],
+["“Về phần tôi, tôi thích đọc sách.” “Về phần tôi” là…",["Khởi ngữ","Trạng ngữ chỉ nơi chốn","Phụ chú"],0,"Nêu đề tài được nói tới trong câu."],
+["Thể thơ xen kẽ câu 6 chữ và câu 8 chữ là…",["Song thất lục bát","Lục bát","Thơ tám chữ"],1,"Đó là thể lục bát."],
+["Trả lời câu hỏi “tác dụng” cần có gì?",["Chỉ chép lại câu thơ","Chỉ gọi tên biện pháp","Nội dung nổi bật + cảm xúc/thái độ"],2,"Gọi tên chưa đủ, phải nêu hiệu quả biểu đạt."],
+["“Anh em như thể tay chân” dùng…",["So sánh","Ẩn dụ","Đảo ngữ"],0,"Có “như thể”."]];
+Q.push(["“Một cây làm chẳng nên non / Ba cây chụm lại nên hòn núi cao” nhấn mạnh điều gì?",["Sức mạnh đoàn kết","Nỗi buồn chia ly","Vẻ đẹp thiên nhiên"],0,"Ca dao ca ngợi tinh thần đoàn kết."],
+["Từ nào viết đúng chính tả?",["suất sắc","xuất sắc","xuất xắc"],1,"Đúng là “xuất sắc”."],
+["“… được giải nhất”: điền “dành” hay “giành”?",["Dành","Giành","Cả hai đều đúng"],1,"Giành = tranh lấy; dành = để riêng."],
+["Đoạn văn NLXH nên trình bày thế nào?",["Xuống dòng sau mỗi câu","Viết liền một đoạn, có câu chủ đề","Chỉ nêu ví dụ"],1,"Một đoạn liền mạch, có mở – giải thích – bàn luận – bài học."],
+["Khi phân tích thơ, điều quan trọng nhất là…",["Chép lại cả bài thơ","Kể lại nội dung","Trích dẫn rồi phân tích từ ngữ, hình ảnh"],2,"Phân tích cái “đắt” rồi mới bình luận."]);
+let qi=0,sc=0;const qz=document.getElementById("qz");
+function showQ(){document.getElementById("qb").style.width=(qi/Q.length*100)+"%";
+if(qi>=Q.length){qz.innerHTML="<div class='q'><div class='big'>"+sc+"/"+Q.length+" 🎉</div><p>"+(sc>=7?"Giỏi quá! Giữ vững phong độ nhé!":"Cố lên, xem lại thẻ kiến thức rồi làm lại nha!")+"</p><button class='btn' id='rs'>Làm lại 🔁</button></div>";document.getElementById("rs").onclick=()=>{qi=0;sc=0;showQ()};return}
+const q=Q[qi];qz.innerHTML="<div class='q'><b>Câu "+(qi+1)+"/"+Q.length+":</b> "+q[0]+"<div id='op'></div><p id='ex'></p></div>";
+q[1].forEach((o,k)=>{const b=document.createElement("button");b.className="o";b.textContent=o;b.onclick=()=>{const bs=document.querySelectorAll("#op button");bs.forEach(x=>x.disabled=true);bs[q[2]].classList.add("ok");if(k==q[2])sc++;else b.classList.add("no");document.getElementById("ex").innerHTML=(k==q[2]?"✅ Chuẩn rồi! ":"💡 ")+q[3]+"<br><button class='btn' id='nx'>Tiếp ➡️</button>";document.getElementById("nx").onclick=()=>{qi++;showQ()}};document.getElementById("op").appendChild(b)})}
+showQ();
+// plan
+const P=[["🌱 Giai đoạn 1: Nền tảng (đến hết 2026)",["Ôn lại kiến thức tiếng Việt và các biện pháp tu từ","Nhớ tên tác giả, hoàn cảnh sáng tác, nội dung chính các tác phẩm lớp 9","Tập đọc hiểu 2–3 văn bản ngoài SGK mỗi tuần"]],
+["🌼 Giai đoạn 2: Rèn viết (1–3/2027)",["Viết 1 đoạn NLXH mỗi tuần","Viết 1 đoạn NLVH mỗi tuần, nhờ người đọc góp ý","Lập sổ tay “câu hay – từ đắt” riêng của em"]],
+["🌸 Giai đoạn 3: Về đích (4–5/2027)",["Giải đề các năm trước, bấm giờ 120 phút","Soát lỗi chính tả, trình bày sau mỗi bài","Ngủ sớm, giữ sức khỏe trước ngày thi"]]];
+const pl=document.getElementById("plan");let st={};try{st=JSON.parse(localStorage.getItem("van10")||"{}")}catch(e){}
+let tot=0;P.forEach((g,gi)=>{const d=document.createElement("div");d.className="card";d.innerHTML="<b>"+g[0]+"</b>";g[1].forEach((t,ti)=>{tot++;const k=gi+"-"+ti,l=document.createElement("label");l.className="ck";l.innerHTML="<input type='checkbox'"+(st[k]?" checked":"")+"><span>"+t+"</span>";l.firstChild.onchange=e=>{st[k]=e.target.checked;try{localStorage.setItem("van10",JSON.stringify(st))}catch(x){}up()};d.appendChild(l)});pl.appendChild(d)});
+function up(){const n=Object.values(st).filter(Boolean).length;document.getElementById("pb").style.width=(n/tot*100)+"%";document.getElementById("pt").textContent="Đã xong "+n+"/"+tot+" việc 🎀"}up();
+// timer
+let iv,left=0;const ck=document.getElementById("ck");
+function draw(){ck.textContent=String(Math.floor(left/60)).padStart(2,"0")+":"+String(left%60).padStart(2,"0")}
+document.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>{clearInterval(iv);left=b.dataset.m*60;draw();iv=setInterval(()=>{left--;draw();if(left<=0){clearInterval(iv);ck.textContent="Hết giờ! 🎉"}},1000)});
+document.getElementById("stop").onclick=()=>{clearInterval(iv);left=0;ck.textContent="25:00"};
+
+// tài liệu: thêm link mới vào mảng RES
+const RES=[{i:"📚",t:"Tài liệu ôn thi Văn vào 10",d:"File ôn tập trên Google Drive",id:"19Qe7n9fqs2L2E4XMLr8M_t-nMG5gx_Ri"}];
+const url=r=>"https://drive.google.com/file/d/"+r.id+"/view";
+document.getElementById("res").innerHTML=RES.map(r=>"<div class='card c1 res'><div class='ic'>"+r.i+"</div><div><b>"+r.t+"</b><br><small>"+r.d+"</small><br><a class='btn' target='_blank' rel='noopener' href='"+url(r)+"'>Mở tài liệu ↗</a></div></div>").join("");
+document.getElementById("pv").src="https://drive.google.com/file/d/"+RES[0].id+"/preview";
+document.querySelectorAll("section:not(#s9)").forEach(s=>s.insertAdjacentHTML("beforeend","<div class='strip'><span>📎 Cần thêm tài liệu để ôn kỹ hơn?</span><a class='btn' target='_blank' rel='noopener' href='"+url(RES[0])+"'>Mở tài liệu ôn tập</a></div>"));
+
+// trang trí nền + hiệu ứng chạm lấp lánh
+(function(){const E=["🌸","⭐","💗","✨","📖","🎀","☁️","🍓","🦋","🌈","🐰","🍭","🎈","🌷"],d=document.getElementById("deco");
+for(let i=0;i<20;i++){const s=document.createElement("span");s.textContent=E[i%E.length];s.style.cssText="left:"+Math.random()*94+"%;top:"+Math.random()*92+"%;font-size:"+(22+Math.random()*26)+"px;animation-delay:"+(Math.random()*8)+"s;animation-duration:"+(6+Math.random()*6)+"s";d.appendChild(s)}
+document.addEventListener("click",e=>{const s=document.createElement("span");s.textContent=["💖","✨","🌸","⭐","🎀"][Math.random()*5|0];s.style.cssText="position:fixed;left:"+e.clientX+"px;top:"+e.clientY+"px;font-size:22px;pointer-events:none;z-index:99;transition:1s;opacity:1";document.body.appendChild(s);requestAnimationFrame(()=>{s.style.transform="translateY(-70px) rotate(20deg)";s.style.opacity=0});setTimeout(()=>s.remove(),1000)})})();
+</script>
+</body>
+</html>
